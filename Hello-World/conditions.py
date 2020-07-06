@@ -1,5 +1,7 @@
 # Practice code from CS50 Harvard course
 # source: https://cs50.harvard.edu/x/2020/notes/6/
+# source: https://docs.python.org/3/
+
 
 #While loops
 # no more while(true), it is now:
@@ -27,3 +29,11 @@ for i in [1,2,3]:
 # Lists in Python are like arrays in C. Lists = arrays
 # They can grow and shrink without Malloc!
 # Remember: [] is for lists, () for tuples, {} for dictionarys.
+
+#Use the range data type: Range assumes 0 to X...
+print("---------")
+print("Coughing via Range(X): ")
+for i in range(3):
+    print("Cough!")
+
+

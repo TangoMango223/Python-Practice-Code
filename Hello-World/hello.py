@@ -13,6 +13,7 @@ answer2 = input("What's your dog's name? \n")
 print(f"Your dog's name is {answer2}!n")
 
 #use print(f ____ {}) format to quickly refer to variables
+#NOTE: PRINT ALREADY GIVES A NEW LINE BY DEFAULT
 
 #Just like C Language, \n means new line. 
 
