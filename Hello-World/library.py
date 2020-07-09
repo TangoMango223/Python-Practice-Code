@@ -2,7 +2,6 @@
 #Sources: https://www.tutorialspoint.com/python3/python_strings.htm
 
 
-
 #First, practice getting strings
 s = str(input("What's your name?: "))
 print(f"Nice to meet you {s}!")
@@ -15,6 +14,11 @@ if a.lower() == "y":
     print("Agreed!")
 else:
     print("Not agreed.")
+
+#Another way of defining it:
+def ncough(n):
+    for i in range (n):
+        print("Cough!")
 
 #Define functions
 def cough():
