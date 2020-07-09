@@ -1,0 +1,9 @@
+Hello!
+
+This is a file explaining what my intentions are, for with Python Practice codes.
+
+It's for practicing ideas such as:
+- opening/closing/reading files via Python
+- random generation
+- simulation of scenarios, such as cash transactions, giving change and encoding information
+- more.
