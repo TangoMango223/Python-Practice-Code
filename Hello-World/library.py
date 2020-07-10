@@ -15,15 +15,26 @@ if a.lower() == "y":
 else:
     print("Not agreed.")
 
-#Another way of defining it:
-def ncough(n):
-    for i in range (n):
-        print("Cough!")
+#Cough using function. Use the main function to call it!
+# Throw everything under def main
+def main():
+    for i in range(3):
+        cough()
 
 #Define functions
 def cough():
         print("Cough!")
 
-#Cough using function
-for i in range(3):
-    cough()
+main()
+
+# #Call Coughing - version #1
+# def ncough(n):
+#     for i in range (n):
+#         print("Cough!")
+
+# ncough(3) //call the coughing function 
+
+#Call Cough using main function 
+
+
+
