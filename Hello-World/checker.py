@@ -20,5 +20,7 @@ phonebook = { "Emma": "723-184-9321",
 
 if "Emma" in phonebook:
     print(f"Emma's cell is {phonebook['Emma']}! Hope this helps.") #use single quotations in the middle, double outside
+    sys.exit(0)
 else:
     print("Nope sorry couldn't find Emma...")
+    sys.exit(1) #anything not 0 is an error...
