@@ -13,3 +13,14 @@ if look.capitalize() in cohort1:
 else:
     print(f"Did not find {look.capitalize()}. Sorry!")
     sys.exit(1)
+
+#Implement a dictionary; key and value
+
+print("Try the phonebook!")
+phonebook = { "Emma": "723-184-9321",
+            "Christine": "638-172-1234"}
+
+if "Emma" in phonebook:
+    print(f"Emma's cell is {phonebook['Emma']}") #use single quotations in the middle, double outside
+else:
+    print("Nope sorry couldn't find Emma...")
