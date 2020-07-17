@@ -20,9 +20,14 @@ for i in range(height):
     print()
 
 #Print the Mario Triangle - Right Aligned now!
+#Remember, the range function is (start, stop, increment), where stop doesn't include the #
 print()
 print("-----------Right Aligned-------------")
 for i in range(height):
-    for j in range(0,i+1): #needs to be opposite
+    for j in range(i,height - i, 1): #prints white spaces for where there's nothing
+        print(".", end = "")
+    for a in range(height-i+1, height+1, 1): #print the hashtags!
         print("#", end = "")
     print()
+
+
