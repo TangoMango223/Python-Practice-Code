@@ -24,10 +24,12 @@ for i in range(height):
 print()
 print("-----------Right Aligned-------------")
 for i in range(height):
-    for j in range(i,height - i, 1): #prints white spaces for where there's nothing
-        print(".", end = "")
-    for a in range(height-i+1, height+1, 1): #print the hashtags!
+    for j in range(1,height - i, 1): #prints white spaces for where there's nothing
+        print(" ", end = "")
+    for a in range(height-i, height+1, 1): #print the hashtags themselves
         print("#", end = "")
     print()
 
+"""I learned from the code above that if you leave it as "" for print, it will ignore. 
+You need a space in between."""
 
